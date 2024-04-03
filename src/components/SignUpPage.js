@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import '../styles/SignUp.css';
 
-const CreateAccountPage = () => {
+const SignUpPage = () => {
   const navigate = useNavigate();
   const { setUser } = useUser();
   const [formData, setFormData] = useState({
@@ -90,4 +90,4 @@ const CreateAccountPage = () => {
   );
 };
 
-export default CreateAccountPage;
+export default SignUpPage;

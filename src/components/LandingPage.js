@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Landing.css';
 
-const WelcomePage = () => {
+const LandingPage = () => {
   return (
     <div className='welcome'>
     <div className="container1">
@@ -20,6 +20,6 @@ const WelcomePage = () => {
     </div>
     </div>
   );
-}
+  }
 
-export default WelcomePage;
+export default LandingPage;

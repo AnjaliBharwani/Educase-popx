@@ -47,14 +47,14 @@ const LoginPage = () => {
   return (
     <div className='welcome'>
     <div className="container">
-      <h2>Login</h2>
+      <h1 className='h1'>SignIn to your PopX account</h1>
       <div className="input-container">
         <input type="email" name="email" value={loginData.email} onChange={handleInputChange} placeholder="Email Address" required />
       </div>
       <div className="password-input">
         <input type={showPassword ? "text" : "password"} name="password" value={loginData.password} onChange={handleInputChange} placeholder="Password" required />
       </div>
-      <div className='button-container'>
+      <div className='button-container1'>
       <button onClick={handleLogin}>Login</button>
       </div>
     </div>
