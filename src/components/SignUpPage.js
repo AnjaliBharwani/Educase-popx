@@ -5,7 +5,7 @@ import { useUser } from '../contexts/UserContext';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import '../styles/CreateAccount.css';
+import '../styles/SignUp.css';
 
 const CreateAccountPage = () => {
   const navigate = useNavigate();

@@ -1,8 +1,8 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import WelcomePage from './components/WelcomePage';
-import CreateAccountPage from './components/CreateAccountPage';
+import WelcomePage from './components/LandingPage';
+import CreateAccountPage from './components/SignUpPage';
 import LoginPage from './components/LoginPage';
 import ProfilePage from './components/ProfilePage';
 import { UserProvider } from './contexts/UserContext';
